@@ -304,8 +304,9 @@ class LineChart extends React.Component {
                 <View style={StyleSheet.flatten([styles.wrapper, {
                     backgroundColor: this.props.backgroundColor
                 }])}>
+
                     <View style={styles.yAxisLabelsWrapper}>
-                        {drawYAxisLabels(this.state.guideArray, this.props.height + 20, this.props.minValue, this.props.labelColor)}
+                        {drawYAxisLabels(this.state.guideArray, this.props.height + 30, this.props.minValue, this.props.labelColor)}
 
                     </View>
 
@@ -369,7 +370,7 @@ const styles = StyleSheet.create({
         overflow: 'hidden'
     },
     yAxisLabelsWrapper: {
-        paddingRight: 5
+        paddingRight: 5,
     },
     chartViewWrapper: {
         flexDirection: 'row',

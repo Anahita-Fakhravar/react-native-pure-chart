@@ -1,7 +1,3 @@
-
-//index.js
-// node_modules/react-native-pure-chart/examples/pure-chart/index.js
-
 import React from 'react'
 import PropTypes from 'prop-types'
 import {View} from 'react-native'
